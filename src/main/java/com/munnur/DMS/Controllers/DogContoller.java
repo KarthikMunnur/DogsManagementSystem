@@ -21,11 +21,11 @@ import com.munnur.DMS.repository.TrainerRepository;
  */
 @Controller
 public class DogContoller {
-
+//
 	ModelAndView mv = new ModelAndView();
 	@Autowired
 	DogRepository dogRepo;
-
+//
 	@Autowired
 	TrainerRepository trainerRepo;
 
